@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css?family=Maven+Pro');
+html {
+  font-family: Maven Pro;
+}
+
+body {
+  margin:0px;
+}
+
+p {
+  padding: .05%;
+}
+
+#wrapper {
+
+}
+
+/* Header section */
+#header {
+  font-size: 250%;
+  text-align: center;
+  padding: 3%;
+  background: url(https://images.pexels.com/photos/713638/pexels-photo-713638.jpeg) no-repeat center center fixed;
+
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  color: white;
+}
+
+
+#main-content {
+  width: 83%;
+  float: right;
+  padding: .5%;
+  border-left: 7px solid #0074bd;
+}
+
+#search-block-form {
+
+}
+
+#sidebar {
+  width: 14%;
+  float: left;
+  padding-left: .5%;
+}
+
+.comment-wrapper {
+  margin: auto;
+  width: 80%;
+}
+
+input[type="submit"]{
+  margin: .5%;
+  border-radius: 9px;
+  background-color: #0074bd;
+  border: 2px solid #005;
+  color: white;
+}
+
+#footer {
+  text-align: center;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+}
+
+#user-login{
+  width: 40%;
+  float: left;
+}
+
+#user-register-form{
+  width: 40%;
+  float: left;
+}
